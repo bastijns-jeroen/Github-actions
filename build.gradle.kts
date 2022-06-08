@@ -51,6 +51,6 @@ tasks.withType<Test> {
 
 tasks.withType<BootBuildImage> {
     imageName = "public.ecr.aws/u5g2n5i9/github-actions/duncanc"
-    tags = listOf("latest", "$version")
+    tags = listOf("jeroenb", "$version")
 }
 
